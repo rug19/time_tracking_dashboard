@@ -7,7 +7,7 @@ export default function MainCard() {
           <picture className={styles.imgContainer}>
             <img
               className={styles.imgProfile}
-              src="time_tracking_dashboard/image-jeremy.png"
+              src={`${import.meta.env.VITE_PUBLIC_URL}image-jeremy.png`}
               alt="image-jeremy"
             />
           </picture>
