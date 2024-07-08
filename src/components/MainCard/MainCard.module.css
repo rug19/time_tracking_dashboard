@@ -1,6 +1,53 @@
+.maiProfileContainer {
+  width: 150px;
+  height: 300px;
+  background-color: var(--dark-blue);
+  border-radius: 8px;
+}
 
-.mainCardContainer {
-    background-color: white;
-    width: 200px;
-    height: 200px;
+.subProfileContainer {
+  background-color: var(--blue);
+  width: 150px;
+  height: 200px;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.imgProfile {
+  width: 42px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 1rem;
+}
+
+.textProfile {
+  font-family: "Rubik", sans-serif;
+  color: var(--pale-blue);
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.titleProfile {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.buttonProfile {
+  padding: 1rem;
+}
+
+.buttonProfile a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--pale-blue);
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
 }
