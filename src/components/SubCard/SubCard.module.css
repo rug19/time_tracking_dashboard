@@ -1,4 +1,9 @@
+.mainContainder{
+    position: relative;
+}
+
 .cardImg {
+  position: relative;
   width: 255px;
   height: 160px;
   overflow: hidden;
@@ -12,8 +17,7 @@
 }
 
 .card {
-  position: relative;
-  top: -116px;
+  position: absolute;
   width: 256px;
   height: 199px;
   background-color: var(--dark-blue);
@@ -25,7 +29,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .textAction {
@@ -43,14 +46,33 @@
   margin-top: 1rem;
 }
 
-.titleTextAction{
-    font-family: "Rubik", sans-serif;
-    color: var(--pale-blue);
-    font-size: 15px;
-    font-weight: 300;
-    margin-top: 1rem;
+.titleTextAction {
+  font-family: "Rubik", sans-serif;
+  color: var(--pale-blue);
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 1rem;
 }
 
 .workBackground {
   background-color: var(--light-orange);
+}
+
+.playBackground {
+  background-color: var(--soft-blue);
+}
+
+.studyBackground {
+  background-color: var(--light-red);
+}
+
+.exerciseBackground {
+  background-color: var(--lime-green);
+}
+.socialBackground {
+  background-color: var(--violet);
+}
+
+.selfCareBackground {
+  background-color: var(--soft);
 }

@@ -1,4 +1,11 @@
 .dashboardContainer {
-     display: flex;
-     gap: 1rem;
+  display: flex;
+  gap: 20px; /* Espaçamento entre os cartões */
+}
+
+.subCardContainer {
+  display: grid;
+  grid-template-columns:
+  repeat(3, auto);
+  gap: 20px; /* Espaçamento entre os cartões */
 }
