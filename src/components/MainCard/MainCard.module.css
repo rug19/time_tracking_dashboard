@@ -2,7 +2,7 @@
   width: 255px;
   height: 518px;
   background-color: var(--dark-blue);
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 .subProfileContainer {
@@ -10,7 +10,7 @@
   width: 255px;
   height: 354px;
   padding: 1.5rem;
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 .imgProfile {
@@ -30,8 +30,8 @@
 .titleProfile {
   font-family: "Rubik", sans-serif;
   color: white;
-  font-weight: 300;
-  font-size: 35px;
+  font-weight: 400;
+  font-size: 40px;
 }
 .buttonProfile {
   padding: 2rem;
@@ -43,7 +43,7 @@ li {
   text-decoration: none;
   color: var(--pale-blue);
   font-family: "Rubik", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 15px;
   font-size: 21px;
 }
