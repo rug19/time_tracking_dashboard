@@ -1,29 +1,29 @@
 .maiProfileContainer {
-  width: 150px;
-  height: 300px;
+  width: 255px;
+  height: 518px;
   background-color: var(--dark-blue);
   border-radius: 8px;
 }
 
 .subProfileContainer {
   background-color: var(--blue);
-  width: 150px;
-  height: 200px;
+  width: 255px;
+  height: 354px;
   padding: 1.5rem;
   border-radius: 8px;
 }
 
 .imgProfile {
-  width: 42px;
+  width: 78px;
   border-radius: 50%;
   border: 2px solid white;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .textProfile {
   font-family: "Rubik", sans-serif;
   color: var(--pale-blue);
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -31,9 +31,10 @@
   font-family: "Rubik", sans-serif;
   color: white;
   font-weight: 300;
+  font-size: 35px;
 }
 .buttonProfile {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .buttonProfile a,
@@ -43,8 +44,8 @@ li {
   color: var(--pale-blue);
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  margin-bottom: 10px;
-  font-size: 13px;
+  margin-bottom: 15px;
+  font-size: 21px;
 }
 
 a:hover{

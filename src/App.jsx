@@ -1,10 +1,13 @@
 import "./App.css";
-import MainCard from "./components/MainCard/MainCard";
+import DashboardCard from "./components/DashboardCard/DashboardCard";
+
+
+
 
 function App() {
   return (
     <>
-      <MainCard />
+     <DashboardCard/> 
     </>
   );
 }
