@@ -8,7 +8,16 @@ export default function DashboardCard() {
       <div className={styles.dashboardContainer}>
         <MainCard />
         <div>
-          <SubCard background="workBackground" />
+          {/* First card Work */}
+          <SubCard 
+          background="workBackground" 
+          image={`${import.meta.env.VITE_PUBLIC_URL}icon-work.svg`}
+          action="Work"
+          time="32hrs"
+          event="Last wek - 36hrs"
+          />
+
+          {/* Second card  */}
         </div>
       </div>
     </section>

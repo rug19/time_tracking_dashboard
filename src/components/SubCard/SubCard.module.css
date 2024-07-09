@@ -1,9 +1,56 @@
-.card {
-    width: 150px;
-    height: 150px;
+.cardImg {
+  width: 255px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 15px;
 }
 
-.workBackground{
-    background-color: var(--light-red);
-    
+.cardImg img {
+  position: relative;
+  top: -13px;
+  left: 156px;
+}
+
+.card {
+  position: relative;
+  top: -116px;
+  width: 256px;
+  height: 199px;
+  background-color: var(--dark-blue);
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.actionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.textAction {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.titleAction {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 56px;
+  margin-top: 1rem;
+}
+
+.titleTextAction{
+    font-family: "Rubik", sans-serif;
+    color: var(--pale-blue);
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.workBackground {
+  background-color: var(--light-orange);
 }
