@@ -1,5 +1,7 @@
-.mainContainder{
-    position: relative;
+.mainContainder {
+  position: relative;
+  width: 255px; /* Ajuste conforme necessário */
+  height: 160px; /* Ajuste conforme necessário */
 }
 
 .cardImg {

@@ -5,9 +5,12 @@ import styles from "./Dashboard.module.css";
 export default function DashboardCard() {
   return (
     <div className={styles.dashboardContainer}>
-      <MainCard />
+      <div>
+        <MainCard />
+      </div>
       <div className={styles.subCardContainer}>
         {/* card Work */}
+
         <SubCard
           background="workBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-work.svg`}
@@ -17,6 +20,7 @@ export default function DashboardCard() {
         />
 
         {/*  card play */}
+
         <SubCard
           background="playBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-play.svg`}
@@ -24,7 +28,9 @@ export default function DashboardCard() {
           time="10hrs"
           event="Last wek - 8hrs"
         />
+
         {/* Card Study */}
+
         <SubCard
           background="studyBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-study.svg`}
@@ -32,6 +38,7 @@ export default function DashboardCard() {
           time="4hrs"
           event="Last wek - 7hrs"
         />
+
         {/* card exercise */}
         <SubCard
           background="exerciseBackground"
