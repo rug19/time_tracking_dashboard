@@ -10,7 +10,6 @@ export default function DashboardCard() {
       </div>
       <div className={styles.subCardContainer}>
         {/* card Work */}
-
         <SubCard
           background="workBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-work.svg`}
@@ -20,7 +19,6 @@ export default function DashboardCard() {
         />
 
         {/*  card play */}
-
         <SubCard
           background="playBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-play.svg`}
@@ -30,7 +28,6 @@ export default function DashboardCard() {
         />
 
         {/* Card Study */}
-
         <SubCard
           background="studyBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-study.svg`}

@@ -12,8 +12,10 @@ export default function MainCard() {
               alt="image-jeremy"
             />
           </picture>
-          <p className={styles.textProfile}>Report for</p>
-          <h1 className={styles.titleProfile}>Jeremy Robson</h1>
+          <div>
+            <p className={styles.textProfile}>Report for</p>
+            <h1 className={styles.titleProfile}>Jeremy Robson</h1>
+          </div>
         </div>
         <ul className={styles.buttonProfile}>
           <li>

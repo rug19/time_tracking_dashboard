@@ -78,3 +78,10 @@
 .selfCareBackground {
   background-color: var(--soft);
 }
+
+@media(max-width: 500px){
+  .mainContainer {
+    width: 255px;
+    height: 249px;
+  }
+}
