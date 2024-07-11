@@ -3,7 +3,7 @@ import styles from "./MainCard.module.css";
 export default function MainCard() {
   return (
     <section>
-      <div className={styles.maiProfileContainer}>
+      <div className={styles.mainProfileContainer}>
         <div className={styles.subProfileContainer}>
           <picture className={styles.imgContainer}>
             <img
@@ -26,9 +26,6 @@ export default function MainCard() {
             <a href="">Monthly</a>
           </li>
         </ul>
-      </div>
-      <div>
-        
       </div>
     </section>
   );

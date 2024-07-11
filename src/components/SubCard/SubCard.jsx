@@ -5,10 +5,12 @@ export default function SubCard({ background, image, action, time, event }) {
   return (
     <section>
       {/* Para acessar uma classe dinamicamente é preciso utilizar o colchete para especifica a classe que deseja acessar  */}
-      <div className={styles.mainContainer}>
-        <div className={`${styles.cardImg} ${styles[background]}`}>
+
+      <div className={`${styles.cardImg} ${styles[background]}`}>
+        <picture>
           <img src={image} alt="" />
-        </div>
+        </picture>
+
         <div className={styles.card}>
           <div className={styles.actionContainer}>
             <p className={styles.textAction}>{action}</p>

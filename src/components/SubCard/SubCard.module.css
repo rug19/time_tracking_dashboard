@@ -1,13 +1,8 @@
-.mainContainder {
-  position: relative;
-  width: 255px; /* Ajuste conforme necessário */
-  height: 160px; /* Ajuste conforme necessário */
-}
 
 .cardImg {
   position: relative;
   width: 255px;
-  height: 160px;
+  height: 249px;
   overflow: hidden;
   border-radius: 15px;
 }
@@ -20,11 +15,16 @@
 
 .card {
   position: absolute;
-  width: 256px;
-  height: 199px;
-  background-color: var(--dark-blue);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--dark-blue); /* Cobrirá totalmente o pai */
   border-radius: 15px;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .actionContainer {
