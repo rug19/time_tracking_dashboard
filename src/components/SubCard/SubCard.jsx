@@ -3,14 +3,9 @@ import PropTypes from "prop-types";
 
 export default function SubCard({ background, image, action, time, event }) {
   return (
-    <section>
-      {/* Para acessar uma classe dinamicamente é preciso utilizar o colchete para especifica a classe que deseja acessar  */}
-
-      <div className={`${styles.cardImg} ${styles[background]}`}>
-        <picture>
-          <img src={image} alt="" />
-        </picture>
-
+    <section className={styles.mainContainer}>
+      <div className={`${styles.subCard} ${styles[background]}`}>
+        <img className={styles.cardImg} src={image} alt="" />
         <div className={styles.card}>
           <div className={styles.actionContainer}>
             <p className={styles.textAction}>{action}</p>

@@ -16,7 +16,7 @@ export default function DashboardCard() {
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-work.svg`}
           action="Work"
           time="32hrs"
-          event="Last wek - 36hrs"
+          event="Last week - 36hrs"
         />
 
         {/*  card play */}
@@ -26,7 +26,7 @@ export default function DashboardCard() {
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-play.svg`}
           action="Play"
           time="10hrs"
-          event="Last wek - 8hrs"
+          event="Last week - 8hrs"
         />
 
         {/* Card Study */}
@@ -36,31 +36,31 @@ export default function DashboardCard() {
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-study.svg`}
           action="Study"
           time="4hrs"
-          event="Last wek - 7hrs"
+          event="Last week - 7hrs"
         />
 
         {/* card exercise */}
         <SubCard
           background="exerciseBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-exercise.svg`}
-          action="Study"
+          action="Exercise"
           time="4hrs"
-          event="Last wek - 7hrs"
+          event="Last week - 5hrs"
         />
         {/* social card */}
         <SubCard
           background="socialBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-social.svg`}
-          action="Study"
-          time="4hrs"
-          event="Last wek - 7hrs"
+          action="Social"
+          time="5hrs"
+          event="Last week - 10hrs"
         />
         <SubCard
           background="selfCareBackground"
           image={`${import.meta.env.VITE_PUBLIC_URL}icon-self-care.svg`}
-          action="Study"
-          time="4hrs"
-          event="Last wek - 7hrs"
+          action="Self Care"
+          time="2hrs"
+          event="Last week - 2hrs"
         />
       </div>
     </div>
