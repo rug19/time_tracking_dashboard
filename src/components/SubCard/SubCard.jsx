@@ -14,8 +14,10 @@ export default function SubCard({ background, image, action, time, event }) {
               alt=""
             />
           </div>
-          <h1 className={styles.titleAction}>{time}</h1>
-          <p className={styles.titleTextAction}>{event}</p>
+          <div className={styles.timeContainer}>
+            <h1 className={styles.titleAction}>{time}</h1>
+            <p className={styles.titleTextAction}>{event}</p>
+          </div>
         </div>
       </div>
     </section>
