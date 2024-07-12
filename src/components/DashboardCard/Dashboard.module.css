@@ -1,8 +1,15 @@
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .dashboardContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   max-width: 100%;
+  max-height: 100%;
   margin: 0 auto;
   padding: 10px;
 }
@@ -16,7 +23,6 @@
 @media (max-width: 900px) {
   .dashboardContainer {
     grid-template-columns: repeat(2, 1fr);
-    max-height: 800px;
   }
   .item1 {
     grid-column: 1;
@@ -28,7 +34,7 @@
 @media(max-width:500px){
   .dashboardContainer {
     grid-template-columns: repeat(1, 1fr);
-    max-height: 650px;
+    padding: 1rem;
   }
 
   .item1 {
@@ -39,8 +45,3 @@
   
 }
 
-@media(max-width:320px){
-  .dashboardContainer {
-    max-height: 450px;
-  }
-}

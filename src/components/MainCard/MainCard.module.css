@@ -30,7 +30,7 @@
 .titleProfile {
   font-family: "Rubik", sans-serif;
   color: white;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 40px;
 }
 .buttonProfile {
@@ -61,6 +61,7 @@ a:hover {
 
   .subProfileContainer {
     display: flex;
+    align-items: center;
     gap: 1rem;
     justify-content: center;
     background-color: var(--blue);
@@ -72,4 +73,37 @@ a:hover {
     display: flex;
     justify-content: space-around;
   }
+
+  .imgProfile {
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .imgProfile {
+    margin: 0;
+    width: 4rem;
+  }
+
+  .titleProfile {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+  }
+
+  .textProfile {
+    font-size: 13px;
+  }
+
+  .buttonProfile {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  .buttonProfile a, li {
+    font-size: 18px;
+    
+  }
+
+
 }
