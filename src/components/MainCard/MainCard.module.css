@@ -81,18 +81,18 @@ a:hover {
 @media (max-width: 500px) {
   .imgProfile {
     margin: 0;
-    width: 4rem;
+    width: 5rem;
   }
 
   .titleProfile {
     font-family: "Rubik", sans-serif;
     color: white;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .textProfile {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .buttonProfile {
