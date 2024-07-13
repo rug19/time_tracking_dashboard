@@ -1,4 +1,5 @@
 .mainContainer {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,9 +19,14 @@
 }
 
 @media (max-width: 900px) {
+  .mainContainer {
+    height: 0%;
+    padding: 1rem;
+    
+  }
   .dashboardContainer {
     grid-template-columns: repeat(2, 1fr);
-    
+    grid-gap: 1.5gitrem;
   }
   .item1 {
     grid-column: 1;
@@ -30,9 +36,9 @@
 
 @media (max-width: 500px) {
   .mainContainer {
+    height: 0%;
     display: block;
     padding: 1.3rem;
-    
   }
   .dashboardContainer {
     grid-template-columns: repeat(1, 1fr);
