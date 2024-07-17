@@ -1,4 +1,3 @@
-// import SubCard from "../SubCard/SubCard";
 import styles from "./MainCard.module.css";
 export default function MainCard() {
   return (
