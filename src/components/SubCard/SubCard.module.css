@@ -77,9 +77,11 @@
   background-color: var(--violet);
 }
 
-.selfCareBackground {
+.selfcareBackground {
   background-color: var(--soft);
 }
+
+
 
 @media (max-width: 500px) {
   .mainContainer {
