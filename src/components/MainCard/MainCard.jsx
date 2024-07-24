@@ -3,7 +3,7 @@ import styles from "./MainCard.module.css";
 
 export default function MainCard({ onTimeFrameChange, onDataLoaded }) {
   const [data, setData] = useState([]);
-  const URL = `${import.meta.env.BASE_URL}time_tracking_dashboard/data.json`;
+  const URL = `${import.meta.env.BASE_URL}data.json`;
 
   const fetchData = async () => {
     try {
