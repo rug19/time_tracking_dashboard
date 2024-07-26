@@ -51,17 +51,26 @@ export default function MainCard({ onTimeFrameChange, onDataLoaded }) {
         </div>
         <ul className={styles.buttonProfile}>
           <li>
-            <a href="#" onClick={(event) => handleTimeFrameClick(event, "daily")}>
+            <a
+              href="#"
+              onClick={(event) => handleTimeFrameClick(event, "daily")}
+            >
               Daily
             </a>
           </li>
           <li>
-            <a href="#" onClick={(event) => handleTimeFrameClick(event, "weekly")}>
+            <a
+              href="#"
+              onClick={(event) => handleTimeFrameClick(event, "weekly")}
+            >
               Weekly
             </a>
           </li>
           <li>
-            <a href="#" onClick={(event) => handleTimeFrameClick(event, "monthly")}>
+            <a
+              href="#"
+              onClick={(event) => handleTimeFrameClick(event, "monthly")}
+            >
               Monthly
             </a>
           </li>
