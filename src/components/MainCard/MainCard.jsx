@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import styles from "./MainCard.module.css";
+import PropTypes from "prop-types"
+
 
 export default function MainCard({ onTimeFrameChange, onDataLoaded }) {
-  const [data, setData] = useState([]);
   const URL = `${import.meta.env.BASE_URL}/data.json`;
 
   const fetchData = async () => {
@@ -12,7 +13,7 @@ export default function MainCard({ onTimeFrameChange, onDataLoaded }) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
-      setData(data);
+
       console.log("Fetched data:", data);
       if (onDataLoaded) {
         onDataLoaded(data); // Passa os dados para o DashboardCard
@@ -79,3 +80,10 @@ export default function MainCard({ onTimeFrameChange, onDataLoaded }) {
     </section>
   );
 }
+
+
+MainCard.propTypes = {
+  onTimeFrameChange: PropTypes.func.isRequired,
+  onDataLoaded: PropTypes.func.isRequired,
+};
+ 

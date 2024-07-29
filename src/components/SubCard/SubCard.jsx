@@ -5,7 +5,7 @@ export default function SubCard({ background, image, action, time, event }) {
   return (
     <section className={styles.mainContainer}>
       <div className={`${styles.subCard} ${styles[background]}`}>
-        <img className={styles.cardImg} src={image} alt="" />
+        <img className={styles.cardImg} src={image} alt="card img" />
         <div className={styles.card}>
           <div className={styles.actionContainer}>
             <p className={styles.textAction}>{action}</p>
